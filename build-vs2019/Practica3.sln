@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 16
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Practica3", "Practica3.vcxproj", "{C178F57E-59E3-3BC0-B873-8E5D8F918CFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		MinSizeRel|x64 = MinSizeRel|x64
+		Release|x64 = Release|x64
+		RelWithDebInfo|x64 = RelWithDebInfo|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C178F57E-59E3-3BC0-B873-8E5D8F918CFB}.Debug|x64.ActiveCfg = Debug|x64
+		{C178F57E-59E3-3BC0-B873-8E5D8F918CFB}.Debug|x64.Build.0 = Debug|x64
+		{C178F57E-59E3-3BC0-B873-8E5D8F918CFB}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
+		{C178F57E-59E3-3BC0-B873-8E5D8F918CFB}.MinSizeRel|x64.Build.0 = MinSizeRel|x64
+		{C178F57E-59E3-3BC0-B873-8E5D8F918CFB}.Release|x64.ActiveCfg = Release|x64
+		{C178F57E-59E3-3BC0-B873-8E5D8F918CFB}.Release|x64.Build.0 = Release|x64
+		{C178F57E-59E3-3BC0-B873-8E5D8F918CFB}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{C178F57E-59E3-3BC0-B873-8E5D8F918CFB}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E98AE2A-B5A5-3904-8A66-C572CD947E7C}
+	EndGlobalSection
+EndGlobal

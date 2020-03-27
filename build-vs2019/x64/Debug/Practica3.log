@@ -1,0 +1,28 @@
+﻿  Fluid2Exercise.cpp
+..\src\Fluid2Exercise.cpp(34,38): warning C4267: 'argumento': conversión de 'size_t' a 'asa::uint'; posible pérdida de datos
+..\src\Fluid2Exercise.cpp(35,40): warning C4267: 'argumento': conversión de 'size_t' a 'asa::uint'; posible pérdida de datos
+..\src\Fluid2Exercise.cpp(36,40): warning C4267: 'argumento': conversión de 'size_t' a 'asa::uint'; posible pérdida de datos
+..\src\Fluid2Exercise.cpp(58,37): warning C4244: 'argumento': conversión de 'float' a 'const asa::uint'; posible pérdida de datos
+..\src\Fluid2Exercise.cpp(59,37): warning C4244: 'argumento': conversión de 'float' a 'const asa::uint'; posible pérdida de datos
+..\src\Fluid2Exercise.cpp(60,37): warning C4244: 'argumento': conversión de 'float' a 'const asa::uint'; posible pérdida de datos
+..\src\Fluid2Exercise.cpp(61,37): warning C4244: 'argumento': conversión de 'float' a 'const asa::uint'; posible pérdida de datos
+..\src\Fluid2Exercise.cpp(90,31): warning C4018: '<': no coinciden signed/unsigned
+..\src\Fluid2Exercise.cpp(92,35): warning C4018: '<': no coinciden signed/unsigned
+..\src\Fluid2Exercise.cpp(123,41): warning C4244: 'argumento': conversión de 'float' a 'const asa::uint'; posible pérdida de datos
+..\src\Fluid2Exercise.cpp(124,41): warning C4244: 'argumento': conversión de 'float' a 'const asa::uint'; posible pérdida de datos
+..\src\Fluid2Exercise.cpp(125,41): warning C4244: 'argumento': conversión de 'float' a 'const asa::uint'; posible pérdida de datos
+..\src\Fluid2Exercise.cpp(126,41): warning C4244: 'argumento': conversión de 'float' a 'const asa::uint'; posible pérdida de datos
+..\src\Fluid2Exercise.cpp(145,31): warning C4018: '<': no coinciden signed/unsigned
+..\src\Fluid2Exercise.cpp(147,35): warning C4018: '<': no coinciden signed/unsigned
+..\src\Fluid2Exercise.cpp(179,41): warning C4244: 'argumento': conversión de 'float' a 'const asa::uint'; posible pérdida de datos
+..\src\Fluid2Exercise.cpp(180,41): warning C4244: 'argumento': conversión de 'float' a 'const asa::uint'; posible pérdida de datos
+..\src\Fluid2Exercise.cpp(181,41): warning C4244: 'argumento': conversión de 'float' a 'const asa::uint'; posible pérdida de datos
+..\src\Fluid2Exercise.cpp(182,41): warning C4244: 'argumento': conversión de 'float' a 'const asa::uint'; posible pérdida de datos
+  FluidVisualizer2.cpp
+  main.cpp
+  Scene.cpp
+  Index2.cpp
+  Vector2.cpp
+  Vector3.cpp
+  Generando código...
+  Practica3.vcxproj -> E:\oscar\my_projects\ASA_fluidos\2020_Practica3\build-vs2019\x64\Debug\Practica3.exe
