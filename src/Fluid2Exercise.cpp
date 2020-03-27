@@ -133,12 +133,9 @@ void Fluid2::fluidAdvection(const float dt)
                     Vector2 diff = indexF - min;
                     float alpha = diff.x;
                     float betha = diff.y;
-                    float vInterpolate = bilerp(velocityX[p1], velocityX[p2], velocityX[p3], velocityX[p4], alpha, betha);
+                    float vInterpolate = bilerp(velocityX[p1], velocityX[p2], velocityX[p4], velocityX[p3], alpha, betha);
 
-                    //aqui se deberia comprobar que no se salga
-                    Index2 sz = VX_result.getSize();
-				    if (index_ij.x > 0 && index_ij.x < sz.x - 1 && index_ij.y >= 0 && index_ij.y < sz.y)
-                        VX_result[index_ij] = vInterpolate; 
+                    VX_result[index_ij] = vInterpolate; 
                 }
             }
 
@@ -170,11 +167,9 @@ void Fluid2::fluidAdvection(const float dt)
                     else if (prevPoint.y > box.maxPosition.y)
                         prevPoint.y = box.maxPosition.y;
 
-                    //esto nose que hace
                     Vector2 indexF = grid.getFaceIndex(prevPoint, 1);
                     Vector2 min(floor(indexF.x), floor(indexF.y));
                     Vector2 max(ceil(indexF.x), ceil(indexF.y));
-                    //////////////////////////////////////////////////////
 
                     int minX = clamp(min.x, 0, inkRGB.getSize().x - 1);
                     int maxX = clamp(max.x, 0, inkRGB.getSize().x - 1);
@@ -189,13 +184,9 @@ void Fluid2::fluidAdvection(const float dt)
                     Vector2 diff = indexF - min;
                     float alpha = diff.x;
                     float betha = diff.y;
-                    float vInterpolate = bilerp(velocityY[p1], velocityY[p2], velocityY[p3], velocityY[p4], alpha, betha);
+                    float vInterpolate = bilerp(velocityY[p1], velocityY[p2], velocityY[p4], velocityY[p3], alpha, betha);
 
-                    //aqui se deberia comprobar que no se salga
-                    Index2 sz = VY_result.getSize();
-                    if (index_ij.x >= 0 && index_ij.x < sz.x && index_ij.y > 0 && index_ij.y < sz.y - 1)
-                        VY_result[index_ij] = vInterpolate; 
-                    //VY_result[index_ij] = vInterpolate;
+                    VY_result[index_ij] = vInterpolate; 
                 }
             }
             velocityX = VX_result;
