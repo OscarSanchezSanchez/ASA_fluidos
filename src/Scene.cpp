@@ -5,7 +5,7 @@
 
 namespace asa
 {
-int Scene::testcase = Scene::TEST_ADVECTION;
+int Scene::testcase = Scene::SMOKE;
 bool Scene::pauseFlag = true;
 uint Scene::nCellsX = 100;
 uint Scene::nCellsY = 100;
